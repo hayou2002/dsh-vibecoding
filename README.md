@@ -19,6 +19,18 @@
 
 ## 安装
 
+把这句话交给支持安装 Skill 的 Agent：
+
+```text
+请帮我安装这个 Skill：运行 npx skills add hayou2002/dsh-vibecoding
+```
+
+或者把仓库放进技能根：
+
+```bash
+git clone https://github.com/hayou2002/dsh-vibecoding "$HOME/.dsh/skills/dsh-vibecoding"
+```
+
 整个目录就是 skill，需要保留 `SKILL.md` 及其相邻的 `references/`、`assets/`、`templates/`、`eval/`，不要只复制入口文件。
 
 ```text
